@@ -1,0 +1,143 @@
+/* General Styles */
+body {
+    scroll-behavior: smooth;
+}
+
+.button-container {
+    text-align: center;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    background-color: #003d82;
+    transform: scale(0.98);
+}
+/* carousel section (home)*/
+#carousel {
+    background:url('./images/money-cash.gif');
+    background-size:cover;
+}
+
+#carousel h1 {
+    padding-top: 5%;
+    color: white;
+}
+
+.carousel-item img, 
+.carousel-item video {
+    max-width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    margin-bottom: 10%;
+}
+/* section */
+section {
+    padding: 60px 0;
+}
+
+/* create page */
+
+#Create {
+    background: url('./images/create.jpg');
+    background-size: cover;
+    color: black;
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 50%;
+}
+/* register page */
+.Register {
+    background: #9e3d3d;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin-left: 35%;
+  }
+  
+  h1 {
+    padding-top: 40px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input, select, button {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #errorMessage {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+/* Back to Top Button */
+#backToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: none;
+    cursor: pointer;
+}
+
+#backToTopBtn:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
